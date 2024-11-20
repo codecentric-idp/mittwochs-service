@@ -25,3 +25,5 @@ resources:
       host: ${resources.dns.host}
       path: /
       port: 80
+  db:
+    type: postgres
